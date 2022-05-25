@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Playfair Display', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-sanduiche {
+    display: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-bar-header {
+    width: 750px;
+}
+
+.nav-bar-header ul {
+    display: flex;
+    justify-content: space-evenly;
+   list-style: none;
+}
+
+.nav-bar-header ul li a {
+    color: #9767A9;
+    opacity: 1;
+}
+
+.nav-bar-header ul li a:hover {
+    font-weight: bold;
+}
+
+.div-pesquisa {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.input-header {
+    background-image: url(src/Layer_3\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    border: solid 3px #9767A9;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.div-pesquisa img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.cabeludo {
+    background-image: url(src/cabeludo.png);
+    background-position:  center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 555px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.cabeludo h2 {
+    font: normal normal 900 7.32vw/16vh Playfair Display, serif;
+    opacity: 1;
+    letter-spacing: 0px;
+    width: 25vw;
+}
+
+.cabeludo p {
+    font: normal normal 300 2.92vw/7.84vh Montserrat, serif;
+    width: 30vw;
+    letter-spacing: -1.2px;
+    text-align: center;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1050px) {
+    nav {
+        display: none;
+    }
+    .div-pesquisa {
+        display: none;
+    }
+    .header {
+        padding: 0;
+        display: flex;
+        justify-content: start;
+    }
+    figure {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo {
+        width: 59px;
+        height: 29px;
+    }
+    .menu-sanduiche{
+        display: initial;
+        height: 60px;
+    }  
+}
+
+@media (max-width:950px) {
+    .cabeludo {
+        background-image: url(src/cabeludo.png);
+        background-position:  center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+        font-family: 'Playfair Display', serif;
+    }
+
+}
+
+@media (max-width:800px) {
+    .cabeludo h2 {
+        font: normal normal 900 4.32vw/8vh Playfair Display, serif;
+    }
+    
+    .cabeludo p {
+        font: normal normal 300 1.92vw/4.84vh Montserrat, serif;
+    }
+}
+
+@media (max-width:630px) {
+    .cabeludo {
+        background-image: url(src/cabeludo@2x.png);
+        background-position: center left 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .cabeludo h2 {
+        font: normal normal 900 14vw/8vh Playfair Display, serif;
+        padding-left: 50px;
+        width: 350px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .cabeludo p {
+        font: normal normal 300 5.92vw/2.84vh Montserrat, serif;
+        width: 300px;
+        padding-left: 20px;
+    }
+}
