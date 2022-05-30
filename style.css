@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -31,7 +31,7 @@ a {
 .nav-bar-header ul {
     display: flex;
     justify-content: space-evenly;
-   list-style: none;
+    list-style: none;
 }
 
 .nav-bar-header ul li a {
@@ -73,7 +73,7 @@ a {
 
 .cabeludo {
     background-image: url(src/cabeludo.png);
-    background-position:  center;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 555px;
@@ -111,7 +111,7 @@ a {
 
 .info-7passos h2 {
     font: normal normal 900 50px/60px Playfair Display;
-    width: 720px;  
+    width: 720px;
     line-height: 70px;
 }
 
@@ -124,11 +124,217 @@ a {
     margin-top: 30px;
 }
 
+.sessao-1,
+.sessao-2,
+.sessao-3,
+.sessao-4 {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    flex-wrap: wrap;
+}
+
+.sessao-foto-1 {
+    background-image: url(src/cabelo-no-espelho.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 450px;
+    width: 46.69vw;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    margin-right: 30px;
+    margin-top: -50px;
+}
+
+
+.sessao-foto-1-descricao,
+.sessao-foto-2-descricao,
+.sessao-foto-3-descricao,
+.sessao-foto-4-descricao,
+.sessao-foto-5-descricao,
+.sessao-foto-6-descricao,
+.sessao-foto-7-descricao {
+    background-color: #9767A9;
+    padding-left: 30px;
+    width: 400px;
+    margin: auto;
+    margin-top: -170px;
+}
+
+.sessao-foto-1-descricao h3,
+.sessao-foto-2-descricao h3,
+.sessao-foto-3-descricao h3,
+.sessao-foto-4-descricao h3,
+.sessao-foto-5-descricao h3,
+.sessao-foto-6-descricao h3,
+.sessao-foto-7-descricao h3 {
+    text-align: left;
+    width: 300px;
+    font: normal normal 900 28px/42px Playfair Display;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.sessao-foto-1-descricao p,
+.sessao-foto-2-descricao p,
+.sessao-foto-3-descricao p,
+.sessao-foto-4-descricao p,
+.sessao-foto-5-descricao p,
+.sessao-foto-6-descricao p,
+.sessao-foto-7-descricao p {
+    width: 370px;
+    text-align: left;
+    font: normal normal 300 16px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.sessao-foto-2 {
+    background-image: url(src/NoPath-Copia.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 450px;
+    width: 46.69vw;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+/* .sessao-foto-2-descricao {
+    background-color: #9767A9;
+    padding-left: 30px;
+    width: 400px;
+    margin: auto;
+    margin-top: -150px;
+} */
 
 
 
 
+.container-2 {
+    align-self: flex-end;
+}
 
+.oi-3,
+.container-4 {
+    align-self: center;
+}
+
+.sessao-foto-3 {
+    background-image: url(src/NoPath-homem-praia.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 450px;
+    width: 46.69vw;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    margin-right: 30px;
+    margin-top: -156px;
+}
+
+/* .sessao-foto-3-descricao {
+    background-color: #9767A9;
+    width: 300px;
+    margin: auto;
+    margin-top: -150px;
+} */
+
+.sessao-foto-4 {
+    background-image: url(src/NoPath-rainha.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 450px;
+    width: 46.69vw;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+
+
+/* .sessao-foto-4-descricao {
+    background-color: #9767A9;
+    width: 300px;
+    margin: auto;
+    margin-top: -150px;
+} */
+
+
+
+.sessao-foto-5 {
+    background-image: url(src/NoPath-beijo-carinhoso.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 450px;
+    width: 46.69vw;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    margin-right: 30px;
+    margin-top: -250px;
+}
+
+.sessao-foto-6 {
+    background-image: url(src/NoPath-lavar.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 450px;
+    width: 46.69vw;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.sessao-foto-7 {
+    background-image: url(src/NoPath-platinado.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 450px;
+    width: 46.69vw;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    margin-right: 30px;
+    margin-top: -350px;
+}
+
+.sessao-foto-8 {
+    height: 450px;
+    width: 46.69vw;
+    justify-content: center;
+}
+
+.sessao-foto-8 img {
+    width: 100%;
+}
 
 /* .sessao-1 {
     display: flex;
@@ -155,10 +361,7 @@ a {
     align-self: flex-end;
 }
 
-.sessao-foto-2 img {
-    height: 450px;
-    width: 550px;
-}
+
 
 .sessao-foto-2 div {
     background-color: #9767A9;
@@ -178,7 +381,7 @@ a {
     nav {
         display: none;
     }
-    
+
     .div-pesquisa {
         display: none;
     }
@@ -208,10 +411,10 @@ a {
         height: 29px;
     }
 
-    .menu-sanduiche{
+    .menu-sanduiche {
         display: initial;
         height: 60px;
-    }  
+    }
 
     .info-7passos {
         flex-direction: column;
@@ -230,13 +433,200 @@ a {
         justify-content: space-around;
         margin-top: 10px;
     }
+
+    .sessao-1 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 1200px;
+    }
+
+    .container-1 {
+        height: 800px;
+    }
+
+    .sessao-foto-1 {
+        background-size: contain;
+        height: 450px;
+        width: 700px;
+        justify-content: center;
+        display: flex;
+        align-items: flex-end;
+        justify-content: end;
+        margin-right: 30px;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .sessao-foto-1-descricao {
+        background-color: #9767A9;
+        width: 98.30vw;
+        margin: auto;
+        margin-top: -170px;
+    }
+
+    .sessao-foto-1-descricao p,
+    .sessao-foto-2-descricao p {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: auto;
+    }
+
+
+    .container-2 {
+        height: 800px;
+    }
+
+    .sessao-foto-2 {
+        background-size: contain;
+        height: 450px;
+        width: 700px;
+        display: flex;
+        align-items: flex-end;
+        margin-top: 30px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .sessao-2 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 1100px;
+    }
+
+    .container-3 {
+        height: 1000px;
+    }
+
+    .sessao-foto-3 {
+        background-size: contain;
+        height: 450px;
+        width: 700px;
+        display: flex;
+        align-items: flex-end;
+        margin-top: 0;
+        margin: auto;
+        margin-top: 435px;
+    }
+
+
+    .container-4 {
+        height: 600px;
+    }
+
+    .sessao-foto-4 {
+        background-size: contain;
+        height: 450px;
+        width: 700px;
+        justify-content: center;
+        display: flex;
+        align-items: flex-end;
+        justify-content: end;
+        margin-right: 30px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .sessao-3 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 1100px;
+    }
+
+    .container-5 {
+        height: 600px;
+    }
+
+    .sessao-foto-5 {
+        background-size: contain;
+        height: 450px;
+        width: 700px;
+        margin-right: 0px;
+        margin: auto;
+        margin-top: 540px;
+    }
+
+    .container-6 {
+        height: 600px;
+    }
+
+    .sessao-foto-6 {
+        background-size: contain;
+        height: 450px;
+        width: 700px;
+        margin-right: 0px;
+        margin: auto;
+        margin-top: 590px;
+    }
+
+    .container-7 {
+        padding-top: 30px;
+        height: 600px;
+    }
+
+    .sessao-foto-7 {
+        background-size: contain;
+        height: 450px;
+        width: 700px;
+        margin-right: 0px;
+        margin: auto;
+        margin-top: 670px;
+    }
+
+    .sessao-foto-8 {
+        width: 40.14vw;
+        margin: auto;
+        margin-top: 650px;
+    }
+
+
+
+    .sessao-foto-2-descricao,
+    .sessao-foto-3-descricao,
+    .sessao-foto-4-descricao,
+    .sessao-foto-5-descricao,
+    .sessao-foto-6-descricao,
+    .sessao-foto-7-descricao {
+        background-color: #9767A9;
+        width: 98.30vw;
+        margin: auto;
+        margin-top: -170px;
+
+    }
+
+    .sessao-foto-1-descricao h3,
+    .sessao-foto-2-descricao h3,
+    .sessao-foto-3-descricao h3,
+    .sessao-foto-4-descricao h3,
+    .sessao-foto-5-descricao h3,
+    .sessao-foto-6-descricao h3,
+    .sessao-foto-7-descricao h3 {
+        width: 370px;
+        margin: auto;
+
+    }
+
+
+    .sessao-foto-2-descricao p,
+    .sessao-foto-3-descricao p,
+    .sessao-foto-4-descricao p,
+    .sessao-foto-5-descricao p,
+    .sessao-foto-6-descricao p,
+    .sessao-foto-7-descricao p {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: auto;
+    }
+
 }
 
 
 @media (max-width:950px) {
     .cabeludo {
         background-image: url(src/cabeludo.png);
-        background-position:  center;
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         height: 300px;
@@ -247,6 +637,15 @@ a {
         font-family: 'Playfair Display', serif;
     }
 
+    .sessao-foto-1-descricao,
+    .sessao-foto-2-descricao,
+    .sessao-foto-3-descricao,
+    .sessao-foto-4-descricao,
+    .sessao-foto-5-descricao,
+    .sessao-foto-6-descricao,
+    .sessao-foto-7-descricao {
+        width: 97.90vw;
+    }
 }
 
 
@@ -254,10 +653,31 @@ a {
     .cabeludo h2 {
         font: normal normal 900 4.32vw/8vh Playfair Display, serif;
     }
-    
+
     .cabeludo p {
         font: normal normal 300 1.92vw/4.84vh Montserrat, serif;
     }
+
+    .sessao-foto-1,
+    .sessao-foto-2,
+    .sessao-foto-3,
+    .sessao-foto-4,
+    .sessao-foto-5,
+    .sessao-foto-6,
+    .sessao-foto-7 {
+        width: 600px;
+    }
+
+    .sessao-foto-1-descricao,
+    .sessao-foto-2-descricao,
+    .sessao-foto-3-descricao,
+    .sessao-foto-4-descricao,
+    .sessao-foto-5-descricao,
+    .sessao-foto-6-descricao,
+    .sessao-foto-7-descricao {
+        width: 97.00vw;
+    }
+
 }
 
 
@@ -267,33 +687,45 @@ a {
     .cabeludo p {
         width: 160px;
     }
+
     .info-7passos h2 {
         font: normal normal 900 40px/50px Playfair Display;
-        width: 600px;  
+        width: 600px;
         line-height: 70px;
     }
+
     .info-7passos p {
-        
+
         font: normal normal 300 25px/25px Montserrat;
         width: 600px;
         margin-top: 10px;
     }
 
-    
+    .sessao-foto-1,
+    .sessao-foto-2,
+    .sessao-foto-3,
+    .sessao-foto-4,
+    .sessao-foto-5,
+    .sessao-foto-6,
+    .sessao-foto-7 {
+        width: 550px;
+    }
 }
 
 
 @media (max-width:630px) {
     .info-7passos h2 {
         font: normal normal 900 30px/40px Playfair Display;
-        width: 500px;  
+        width: 500px;
     }
+
     .info-7passos p {
-        
+
         font: normal normal 300 22px/25px Montserrat;
         width: 500px;
         margin-top: 10px;
     }
+
     .cabeludo {
         background-image: url(src/cabeludo@2x.png);
         background-position: center left 30%;
@@ -305,6 +737,7 @@ a {
         align-items: flex-start;
         justify-content: flex-start;
     }
+
     .cabeludo h2 {
         font: normal normal 900 14vw/8vh Playfair Display, serif;
         padding-left: 30px;
@@ -313,23 +746,45 @@ a {
         margin-top: 20px;
         margin-bottom: 30px;
     }
-    
+
     .cabeludo p {
         font: normal normal 300 5.92vw/2.84vh Montserrat, serif;
         width: 432px;
         line-height: 40px;
         padding-left: 10px;
     }
+
+    .sessao-foto-1,
+    .sessao-foto-2,
+    .sessao-foto-3,
+    .sessao-foto-4,
+    .sessao-foto-5,
+    .sessao-foto-6,
+    .sessao-foto-7 {
+        width: 450px;
+    }
+
+    .sessao-foto-1-descricao,
+    .sessao-foto-2-descricao,
+    .sessao-foto-3-descricao,
+    .sessao-foto-4-descricao,
+    .sessao-foto-5-descricao,
+    .sessao-foto-6-descricao,
+    .sessao-foto-7-descricao {
+        width: 96.90vw;
+    }
+    
 }
 
 
 @media (max-width:520px) {
     .info-7passos h2 {
         font: normal normal 900 25px/35px Playfair Display;
-        width: 400px;  
+        width: 400px;
     }
+
     .info-7passos p {
-        
+
         font: normal normal 300 18px/25px Montserrat;
         width: 400px;
     }
@@ -348,6 +803,26 @@ a {
         width: 340px;
         line-height: 40px;
         padding-left: 10px;
+    }
+
+    .sessao-foto-1,
+    .sessao-foto-2,
+    .sessao-foto-3,
+    .sessao-foto-4,
+    .sessao-foto-5,
+    .sessao-foto-6,
+    .sessao-foto-7 {
+        width: 400px;
+    }
+
+    .sessao-foto-1-descricao,
+    .sessao-foto-2-descricao,
+    .sessao-foto-3-descricao,
+    .sessao-foto-4-descricao,
+    .sessao-foto-5-descricao,
+    .sessao-foto-6-descricao,
+    .sessao-foto-7-descricao {
+        width: 96.0vw;
     }
 }
 
@@ -373,7 +848,7 @@ a {
         margin-top: 20px;
         margin-bottom: 30px;
     }
-    
+
     .cabeludo p {
         font: normal normal 300 5.92vw/2.84vh Montserrat, serif;
         width: 250px;
@@ -383,11 +858,21 @@ a {
 
     .info-7passos h2 {
         font: normal normal 900 20px/35px Playfair Display;
-        width: 300px;  
+        width: 300px;
     }
+
     .info-7passos p {
-        
+
         font: normal normal 300 15px/25px Montserrat;
         width: 300px;
+    }
+    .sessao-foto-1,
+    .sessao-foto-2,
+    .sessao-foto-3,
+    .sessao-foto-4,
+    .sessao-foto-5,
+    .sessao-foto-6,
+    .sessao-foto-7 {
+        width: 250px;
     }
 }
