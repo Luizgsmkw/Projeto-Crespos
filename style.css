@@ -21,6 +21,10 @@ a {
     display: none;
 }
 
+.footer-responsivo {
+    display: none;
+}
+
 .header {
     display: flex;
     justify-content: space-evenly;
@@ -721,9 +725,9 @@ a {
         display: flex;
         justify-content: space-around;
         width: 688.2586px;
+        height: 1300px;
         margin: auto;
         flex-wrap: wrap;
-        /* background-color: #9767A9; */
         margin-top: 600px;
     }
 
@@ -869,6 +873,41 @@ a {
     .sessao-foto-6-descricao,
     .sessao-foto-7-descricao {
         width: 97.00vw;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .footer-responsivo {
+        display: initial;
+       display: flex;
+       flex-direction: column;
+    }
+
+    .redes-sociais-footer {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        margin: auto;
+        width: 600px;
+    }
+    .Copyright {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        margin-bottom: 100px;
+    }
+
+    .Copyright p {
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 10px;
+    width: 600px;
+    letter-spacing: 0px;
+    color: black;
+    opacity: 1;
     }
 
 }
