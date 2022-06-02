@@ -876,6 +876,17 @@ a {
         width: 97.00vw;
     }
 
+    .sessao-foto-1-descricao h3,
+    .sessao-foto-2-descricao h3,
+    .sessao-foto-3-descricao h3,
+    .sessao-foto-4-descricao h3,
+    .sessao-foto-5-descricao h3,
+    .sessao-foto-6-descricao h3,
+    .sessao-foto-7-descricao h3 {
+        width: 350px;
+        margin: auto;
+    }
+
     .footer {
         display: none;
     }
@@ -944,6 +955,16 @@ a {
     .sessao-foto-7 {
         width: 550px;
     }
+    .sessao-foto-1-descricao h3,
+    .sessao-foto-2-descricao h3,
+    .sessao-foto-3-descricao h3,
+    .sessao-foto-4-descricao h3,
+    .sessao-foto-5-descricao h3,
+    .sessao-foto-6-descricao h3,
+    .sessao-foto-7-descricao h3 {
+        width: 340px;
+    }
+
     .colecao-fotos {
         display: flex;
         justify-content: space-around;
@@ -1102,6 +1123,16 @@ a {
         width: 96.90vw;
     }
 
+    .sessao-foto-1-descricao h3,
+    .sessao-foto-2-descricao h3,
+    .sessao-foto-3-descricao h3,
+    .sessao-foto-4-descricao h3,
+    .sessao-foto-5-descricao h3,
+    .sessao-foto-6-descricao h3,
+    .sessao-foto-7-descricao h3 {
+        width: 330px;
+    }
+
     .colecao-fotos {
         display: flex;
         justify-content: space-around;
@@ -1219,7 +1250,6 @@ a {
     .info-7passos h2 {
         font: normal normal 900 25px/35px Playfair Display;
         width: 400px;
-        background-color: aqua;
     }
 
     .info-7passos p {
@@ -1264,6 +1294,16 @@ a {
         width: 96.0vw;
     }
 
+    .sessao-foto-1-descricao h3,
+    .sessao-foto-2-descricao h3,
+    .sessao-foto-3-descricao h3,
+    .sessao-foto-4-descricao h3,
+    .sessao-foto-5-descricao h3,
+    .sessao-foto-6-descricao h3,
+    .sessao-foto-7-descricao h3 {
+        width: 310px;
+    }
+
     .colecao-fotos {
         display: flex;
         justify-content: space-around;
@@ -1271,7 +1311,6 @@ a {
         margin: auto;
         flex-wrap: wrap;
         margin-top: 500px;
-        background-color: #9767A9;
     }
 
     .colecao-fotos-1 {
@@ -1331,7 +1370,6 @@ a {
         width: 325px;
         height: 390px;
         margin-right: 0px;
-        background-color: #9767A9;
     }
 
     .f4 {
