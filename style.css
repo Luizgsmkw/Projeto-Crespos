@@ -52,6 +52,36 @@ a {
     font-weight: bold;
 }
 
+.dicas{
+    transition: 0.2s;
+   width: 40px;
+}
+
+.cronograma{
+    width: 169px;
+    transition: 0.2s;
+}
+
+.referencias{
+  transition: 0.2s;
+  width: 90px;
+}
+
+.produtos{
+    transition: 0.2s;
+    width: 80px;
+}
+
+.cadastro{
+    transition: 0.2s;
+    width: 100px;
+}
+
+.contato{
+    transition: 0.2s;
+    width: 80px;
+}
+
 .div-pesquisa {
     width: 300px;
     display: flex;
@@ -388,6 +418,7 @@ a {
 .seta-direita,
 .seta-cima {
     display: flex;
+    padding: 10px;
 }
 .seta-esquerda p,
 .seta-direita p,
@@ -1375,11 +1406,13 @@ a {
     .f4 {
         width: 100px;
         height: 300px;
+        /* Object-fit: cover  */
     }
     .f5 {
         width: 100px;
         height: 90px;
         margin-top: 5px;
+    
     }
 
     .f6 {
